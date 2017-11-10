@@ -74,6 +74,9 @@ h3{
 	color: black;
 	border-bottom: 1px solid black;
 }
+h2{
+    font-size: 20px;
+}
 .lien {
  color: #0e76a8;
  text-decoration: none;
