@@ -4,8 +4,9 @@
 
 <head>
 <link rel="stylesheet" type="text/css" href="css/resume.css">
-<link rel="stylesheet" type="text/css" href="css/responsive.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
 <script src="http://use.edgefonts.net/source-sans-pro.js"></script>
 <meta charset="utf-8">
 
@@ -29,34 +30,39 @@
 
 <body>
  
- <div id="wrapper">
+ <div id="wrapper" itemscope itemtype="http://schema.org/Person">
  	
 <HEADER>
-	    <H1>Rajae ARHOUNE</H1>
-	 	<h2>Ingénieur en développement logiciel des systèmes d’information</h2>
+
+	    <H1 ><span itemprop="name">Rajae ARHOUNE</span></H1>
+	 	<h2 itemscope itemtype="http://schema.org/JobPosting">
+	 	<span itemprop="title">Ingénieur en développement logiciel des systèmes d’information</span>
+	 	</h2>
 <hr>
+ <div class="infoimage">
  	<div class="info">
  	  
- 		<i class="fa fa-flag-o"></i> <strong>Nationalité :</strong> Marocaine<br>
+ 		<i class="fa fa-flag-o"></i><strong>Nationalité :</strong><span itemprop="nationality">  Marocaine</span><br>
  		<i class="fa fa-user" aria-hidden="true"></i> <strong>Age :</strong> 22 ans <br>
- 		<i class="fa fa-envelope-o" aria-hidden="true"></i><strong> Mail :</strong> <strong class="mail">arhoune.rajae@gmail.com</strong><br>
- 		<i class="fa fa-phone" aria-hidden="true"></i> <strong>Tél :</strong> 06 12 04 03 74 <br>
- 		<i class="fa fa-map-marker" aria-hidden="true"></i> <strong>Adresse :</strong> 2 rue des Archives - Brest France <br>
+ 		<i class="fa fa-envelope-o" aria-hidden="true"></i><strong> Mail :</strong> <span itemprop="email"><strong class="mail">arhoune.rajae@gmail.com</strong></span><br>
+ 		<i class="fa fa-phone" aria-hidden="true"></i> <strong>Tél :</strong> <span itemprop="telephone">06 12 04 03 74</span> <br><i class="fa fa-map-marker" aria-hidden="true"></i> <strong>Adresse :</strong> 
+ 		      <span itemprop="address"> 2 rue des Archives - Brest France </span>
+ 		<br>
  		<i class="fa fa-car" aria-hidden="true"></i> Pérmis B 
  	</div>
 
  	<div class="photo">
- 		<img src="images/ph.png">
+ 		<img src="images/ph.png" itemprop="image" alt="Photo de ARHOUNE Rajae">
  	</div>
-
+ </div>
  </HEADER>
 
  <div class="main">
  	<section>
  	<article>
  		<dt><h3>FORMATIONS</h3></dt>
-			<dd><strong>2018 : </strong>Master 2 Développement Logiciel des Systèmes d’Informations à l’Université de Bretagne Occidentale Brest, France.</dd>
-			<dd><strong>2017 : </strong> Master 1 Ingénierie des systèmes d’information à l’Université Cadi Ayyad, Faculté des Sciences Semlalia, Marrakech (FSSM).</dd>
+			<dd><strong>2018 : </strong>Master 2 Développement Logiciel des Systèmes d’Informations à <span itemprop="affiliation">l’Université de Bretagne Occidentale Brest, France.</span></dd>
+			<dd><strong>2017 : </strong> Master 1 Ingénierie des systèmes d’information à <span itemprop="affiliation">l’Université Cadi Ayyad, Faculté des Sciences Semlalia, Marrakech (FSSM).</span></dd>
 			<dd><strong>2016 : </strong> LICENCE en informatique à la FSSM à Marrakech.</dd>
 			<dd><strong>2015 : </strong> DEUG en sciences mathématiques et informatiques à la FSSM à Marrakech.</dd>
 			<dd><strong>2013 : </strong> Baccalauréat sciences mathématiques B à Marrakech.</dd>
@@ -90,8 +96,8 @@
  	</article>
 	<article>
 		<dt><h3>CENTRE D’INTERET</h3></dt>
-		<dd><strong>Communication: </strong> Manager de la communication au sein de l’ IT CLUB FSSM 2017 - 3ème meilleur exposé SEMET (Semaine de l’étudiant FSSM)</dd>
-		<dd><strong>Association : </strong>Membre de l’AFEV pour l’accompagnement des enfants en difficulté.</dd>
+		<dd><strong>Communication: </strong> Manager de la communication au sein de <span itemprop="member">l’ IT CLUB FSSM 2017</span> - 3ème meilleur exposé SEMET (Semaine de l’étudiant FSSM)</dd>
+		<dd><strong>Association : </strong><span itemprop="member">Membre de l’AFEV pour l’accompagnement des enfants en difficulté.</span></dd>
 		<strong><dd>Cours de soutien et aide au devoirs</dd>
 		<dd>Voyage - Danse - Musique - Lecture</dd></strong>
 	</article>
